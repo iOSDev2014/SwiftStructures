@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var arr1:Array<Int> = []
+        
+        for(var i = 0; i < 100; i++){
+            arr1[i] = Int(rand())
+        }
+        
+        
+        var inputArray:[Int] = []
+        for (var i = 0; i < 10; i++){
+            inputArray[i] = Int(rand())
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
